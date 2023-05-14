@@ -198,7 +198,7 @@ hr{
   #coverImage{
     width: 25vw;
   }
-  @media (max-width:500px) {
+  @media (max-width:800px) {
       .d-flex{
      flex-direction: column;
       } 
