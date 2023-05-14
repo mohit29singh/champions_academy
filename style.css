@@ -198,7 +198,7 @@ hr{
   #coverImage{
     width: 25vw;
   }
-  .onlyMedia{
+  .onlyMobile{
     display: none;
   }
   @media (max-width:800px) {
@@ -214,9 +214,8 @@ hr{
       #coverImage{
         width: 80vw;
       }
-      .onlyMedia{
+      .onlyMobile{
           display: block;
-          margin: 50px;
     }
   }
   
