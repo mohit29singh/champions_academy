@@ -192,7 +192,26 @@ hr{
     margin:0;
     font-family:Arial;
   }
-  
+  .makeItHalf{
+    width: 50%;
+  }
+  #coverImage{
+    width: 25vw;
+  }
+  @media (max-width:500px) {
+      .d-flex{
+     flex-direction: column;
+      } 
+      .gallery{
+        display: none;
+      }
+      .makeItHalf{
+        width: 100%;
+      }
+      #coverImage{
+        width: 80vw;
+      }
+  }
   
   .gallery ul {
     position:relative;
