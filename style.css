@@ -198,6 +198,9 @@ hr{
   #coverImage{
     width: 25vw;
   }
+  #onlyMedia{
+    display: none;
+  }
   @media (max-width:800px) {
       .d-flex{
      flex-direction: column;
@@ -211,6 +214,10 @@ hr{
       #coverImage{
         width: 80vw;
       }
+      #onlyMedia{
+          display: block;
+          margin: 50px;
+    }
   }
   
   .gallery ul {
