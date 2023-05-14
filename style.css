@@ -1,0 +1,87 @@
+h3{
+    color: blueviolet;
+}
+
+.unique
+{
+    color: chartreuse;
+    font-weight: bolder;
+}
+h1.unique,li.unique 
+{
+    color: black;
+    font-weight: inherit;
+
+}
+li em{
+    color: brown;
+}
+h1+img{
+    font-size:large;
+}
+body h1.unique{
+    color: black;
+    background-color: darkgray;
+    font-weight: 4px;
+    text-shadow: solid black;
+    text-align: center;
+    
+    border-radius: 50%;
+    text-transform: uppercase;
+}
+
+body h1.unique:hover{
+    background-color: blanchedalmond;
+    color: aliceblue;
+
+}
+
+.right{
+    display:ruby;
+    background-color: antiquewhite;
+    font-style: italic;
+    text-decoration: solid gray;
+    text-shadow: solid black;
+    opacity: 1;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    border: black;
+    letter-spacing: 2px;
+    border-radius:calc();
+    
+
+
+}
+
+.right:hover{
+    color: cadetblue;
+}
+
+.fight{
+    background-color: aliceblue;
+    font-size: 20px;
+    color: gray;
+    text-shadow: solid black;
+    display: flex;
+    display: ruby;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.fight:hover{
+    color: burlywood;
+}
+hr{
+    color:beige;
+}
+#true{
+    color: aliceblue;
+}
+#go{
+    color: aliceblue;
+}
+
+#joint{
+    position: relative;
+    left: 590px;
+}
